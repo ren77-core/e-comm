@@ -33,6 +33,19 @@
    </head>
    
    <body>
+<div class="toggle">
+      <div class="topnav">
+         <a href="#home" class="active">About</a>
+         <div id="myLinks">
+           <a href="#">Original</a>
+           <a href="#">About</a>
+           <a href="#">Clay figurine</a>
+         </div>
+         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+           <i class="fa fa-bars"></i>
+         </a>
+       </div>
+       
       <!--Page wrapper-->
       <!---Logo -->
       <div class="page-wrapper">
@@ -106,7 +119,7 @@
  
          <!---End of navbar-->
          <!--- Intro wrapper-->
-         <div class="intro-wrapper" style="padding-top:150px;">
+         <div class="intro-wrapper">
             <header>
                <div id="carouselExampleIndicators" class="carousel slide shadow carousel-fade" data-ride="carousel">
                   <ol class="carousel-indicators">
@@ -179,7 +192,7 @@
          <br>
          <br>
          <br>
-         <p style="font-size:31px;font-weight: bold;margin-left: 40px;margin-bottom: -30px;">Hey there, I’m Ramanan. Find all about my art events, Originals, featured articles, latest art videos & more, right here. <br>Welcome and Thank you for stopping by! 
+         <p class ="textintro">Hey there, I’m Ramanan. Find all about my art events, Originals, featured articles, latest art videos & more, right here. <br>Welcome and Thank you for stopping by! 
          </p>
          
          <!--- End of Intro wrapper-->
@@ -638,6 +651,17 @@
              .end()
              .appendTo('#slideshow');
          },  4000);</script>
+
+<script>
+   function myFunction() {
+     var x = document.getElementById("myLinks");
+     if (x.style.display === "block") {
+       x.style.display = "none";
+     } else {
+       x.style.display = "block";
+     }
+   }
+   </script>
       
    </body>
 </html>
