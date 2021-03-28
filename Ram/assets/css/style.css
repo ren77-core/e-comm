@@ -501,6 +501,10 @@ width: 65%!important;
 }
 /***********Art Interview Page****************************/
 
+.shadow {
+  box-shadow: none!important;
+}
+
 .toggle { display:none;}
 
 .interview-main-image {
@@ -683,6 +687,16 @@ li.nav-item1 {
 
 @media  screen and (max-width:768px){
 
+
+  /* .display-4{font-size:5px!important;}
+
+  #clyfig{font-size:12px!important;} */
+
+  .lead{font-size: 0.8em!important;}
+
+  .carousel-caption{padding-bottom:1px!important;}
+
+
 .shadow {
     box-shadow: 0 0rem 0rem rgba(0,0,0,.15)!important;
 }
@@ -842,7 +856,7 @@ span91{    position: relative;
 
 .intro-wrapper {padding-top:150px;margin-left:0px;}
 
-.textintro {margin-top:70px;font-size:20px;font-weight: bold;margin-left: 5px;margin-bottom: -30px;}
+.textintro {margin-top:70px;font-size:18px;font-weight: bold;margin-left: 5px;margin-bottom: -30px;}
 
 span61{left:1px;font-size:24px!important;top:400px;}
 
@@ -866,9 +880,9 @@ span61{left:1px;font-size:24px!important;top:400px;}
 }
 
 #slideshow img
-{width:370px!important;
-height:350px!important;
-margin-left:80px!important;
+{width:340px!important;
+height:320px!important;
+margin-left:70px!important;
 margin-top:20px;
 }
 
@@ -880,7 +894,7 @@ span62, span63, span64 {font-size:20px!important;}
 
 .art-gallery{position: relative;left:10px;top:500px;margin-bottom:20px!important;}
 
-span71{font-size: 27px;bottom:40px;left:30px;margin-top: 500px;}
+span71{font-size: 27px;bottom:40px;left:-50px;margin-top: 500px;}
 
 .divi{display: none;}
 
@@ -902,7 +916,7 @@ div#mapArea {position: relative;top:100px;left:-100px;}
   .google-maps {
     display:block;
     position: relative;
-    padding-bottom: 75%; // This is the aspect ratio
+    padding-bottom: 75%; 
     height: 0;
     overflow: hidden;
     top:100px;
@@ -927,7 +941,7 @@ h2{
 font-size: 20px !important;
 }
 .display-4{
-font-size: 1.5rem !important;
+font-size: 1rem !important;
 }
 .logo a{
 font-size : 2rem;   

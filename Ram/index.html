@@ -12,7 +12,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
       <title>Art website</title>
       <!--STYLE CSS only -->
-      <link rel="stylesheet" href="assets/css/style.css" />
       <!-- CSS only -->
       <link
          rel="stylesheet"
@@ -30,6 +29,8 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
       <!--Font awesome -->
       <script src="https://use.fontawesome.com/987f4b545b.js"></script>
+      <link rel="stylesheet" href="assets/css/style.css" />
+
    </head>
    
    <body>
@@ -37,6 +38,8 @@
       <div class="topnav">
          <a href="#home" class="active">About</a>
          <div id="myLinks">
+            <br>
+          <img src="logo.jpg" width="80" height="80" style="float:right;">
            <a href="#">Original</a>
            <a href="#">About</a>
            <a href="#">Clay figurine</a>
@@ -45,7 +48,7 @@
            <i class="fa fa-bars"></i>
          </a>
        </div>
-       
+      </div>
       <!--Page wrapper-->
       <!---Logo -->
       <div class="page-wrapper">
@@ -56,11 +59,8 @@
          </div>
          <!---End of Logo  -->
          <!---Navbar-->
-       <nav class="navbar navbar-expand-lg " style="width:100%;z-index: 9;position:fixed;display: flex;justify-content:center;top:0px;background-color: white;">
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+       <nav class="navbar navbar-expand-lg ">
+                       <div class="collapse navbar-collapse " id="navbarSupportedContent">
                <div class="left-links mr-auto">
                   <ul class="navbar-nav " style="position:relative;" >
                      <li class="nav-item active">
@@ -143,15 +143,19 @@
                      </div>
                      <!-- Slide Two - Set the background image for this slide in the line below -->
                      <div class="carousel-item" style="background-image: url('assets/images/commissioned.PNG')">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption">
                            <h2 class="display-4">Commissioned Art</h2>
                            <p class="lead">Pencil Portraits | Acrylic Portraits | Water Color Portraits </p>
                            <button type="button" class="btn btn-success" style="opacity: 65%;"><b>Place Order</b></button>
-                        </div>
+                        <!-- <div class="mobileview"><p class="lead">Pencil Portraits | Acrylic Portraits | Water Color Portraits </p>
+                           <button type="button" class="btn btn-success" style="opacity: 65%;"><b>Place Order</b></button>
+                      </div> -->
+                     
+                     </div>
                      </div>
                      <!-- Slide Three - Set the background image for this slide in the line below -->
                      <div class="carousel-item" style="background-image: url('assets/images/artshow.PNG')">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption">
                            <h2 class="display-4">Latest Art show</h2>
                            <button type="button" class="btn btn-danger" style="opacity: 65%;"><b>See More</b></button>
 
@@ -159,14 +163,14 @@
                      </div>
                      <!-- Slide Four - Set the background image for this slide in the line below -->
                      <div class="carousel-item" style="background-image: url('assets/images/figurinebanner.PNG')">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption">
                            <h2 class="display-4">Clay Figurine</h2>
-                           <button type="button" class="btn btn-primary" style="opacity: 65%;"><b>View More</b></button>
+                           <button type="button" id="clyfig" class="btn btn-primary" style="opacity: 65%;"><b>View More</b></button>
                         </div>
                      </div>
                      <!-- Slide Five - Set the background image for this slide in the line below -->
                      <div class="carousel-item" style="background-image: url('assets/images/interviewbanner.PNG')">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption">
                            <h2 class="display-4">Interview</h2>
                            <button type="button" class="btn btn-danger" style="opacity: 65%;"><b>Watch Now</b></button>
                         </div>
@@ -504,7 +508,7 @@
       </div>
    </div></center>
          <!----Interview section---->
-         <div class="interview-section">
+         <div class="interview-section" style="position:relative;bottom:400px;">
             <div class="intro-content">
                <h2 class="text-center intro-title">INTERVIEWS</h2>
             </div>
