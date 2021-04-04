@@ -33,11 +33,11 @@
 
    </head>
 
-   <body><div class="topdesign" style="display:flex;width:100%;">
+   <body><div class="container-fluid"><div class="topdesign" style="display:flex;width:100%;">
       <br>
-<div class="toggle" style="width: 100%;position:relative;right:210px;top:14px;">
+<div class="toggle" style="width: 100%;position:relative;right:170px;top:14px;">
       <div class="topnav">
-         <a href="#home" class="active">About<br></a>
+         <a href="#home" class="active" style="visibility:hidden;">About<br></a>
          <div id="myLinks">
             <br>
           <!-- <img src="logo.JPG" width="80" height="80" style="float:right;"> -->
@@ -46,15 +46,16 @@
            <a href="#">Clay figurine</a>
          </div>
          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-           <i class="fa fa-bars" style="color:black;"></i>
+           <i class="fa fa-bars" style="color:black;visibility:visible;"></i>
          </a>
        </div>
       </div>
 
-      <img src="logo.JPG" width="80" height="80" style="position:relative;top:7px;right:110px;">
+      <img src="logo.JPG" class="logoimg" width="80" height="80">
 
       <img src="cart.png" width="31" height="31" style="position:relative;top:25px;margin-right:12px;">
 
+   </div>
    </div>
       <!--Page wrapper-->
       <!---Logo -->
@@ -126,7 +127,7 @@
 
          <!---End of navbar-->
          <!--- Intro wrapper-->
-         <div class="container-fluid">
+         <div class="container-fluid slideshow">
          <div class="intro-wrapper">
             <header>
                <div id="carouselExampleIndicators" class="carousel slide shadow carousel-fade" data-ride="carousel">
@@ -231,7 +232,7 @@
            
            <h3 class="ac-tx" style="width:100%;left:20px;">
             ❚ Acrylic Paintings
-        </h3>   </div></div>
+        </h3>   </div>
             <div class="zoomin3">
 
             <img src="assets/images/water-colour.JPEG" alt="" width="95%" style="border: 0x solid #FFFFFF; box-shadow: 10px 10px 12px 2px #2e2c2c;  "  >
@@ -247,6 +248,7 @@
 
          </div>
             </div>
+         </div>
 
 
          <!----End of grid STRUCTURE---->

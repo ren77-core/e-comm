@@ -105,7 +105,7 @@ right : 50%;
 
 .wat-tx { 
   position: absolute; 
-  top: 390px; 
+  top: 72%; 
   right : 45%;
   color:black;
  font-size: 31px;
@@ -747,8 +747,8 @@ li.nav-item1 {
     
       .white-tx {
         position: absolute;
-        top: 253px;
-        right: 17%;
+        top: 76%;
+        right: 10%;
         color: white;
         font-size: 24px;
         font-weight: lighter;
@@ -807,17 +807,23 @@ li.nav-item1 {
     
      .toggle{display:block;}
     
-    
-    
+     img.logoimg{ position:relative;top:7px;right:28%;
+     }
     
      .topnav {
       overflow: hidden;
       background-color: #ffffff;
       position: relative;
+    width: 200%;
     }
     
+
+
     .topnav #myLinks {
       display: none;
+      left: 36%;
+      position: relative;
+    width: 200%;
     }
     
     .topnav a {
@@ -832,8 +838,8 @@ li.nav-item1 {
       background: white;
       display: block;
       position: absolute;
-      right: 0;
-      top: 0;
+      right: 53%;
+            top: 0;
     }
     
     .topnav a:hover {
@@ -1090,7 +1096,7 @@ li.nav-item1 {
 
     .wat-tx {
       position: absolute;
-      top: 193px;
+      top: 74%;
       left: 5%;
       color: #ffffff;
       font-size: 24px;
@@ -1279,8 +1285,127 @@ justify-content: center;
   height: auto;
 }
     
+
+.slideshow{padding-left:1px!important;}
         
   }
+
+  @media only screen and (max-width: 416px) and (min-width: 412px) { 
+
+    .carousel-inner {
+      position: relative;
+      /* left: 8px; */
+      bottom: 65px;
+      width: 110%;
+  }
+
+      .topnav a.icon {
+        background: white;
+        display: block;
+        position: absolute;
+        right: 57%;
+        top: 0;
+    }
+    img.logoimg {
+      position: relative;
+      top: 7px;
+      right: 31%;
+    }
+
+    .topnav #myLinks {
+      display: none;
+      left: 30%;}
+
+      
+      
+  }
+
+  @media only screen and (max-width: 322px) and (min-width: 318px) { 
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #ffffff;
+    position: relative;
+    width: 200%;
+    left: 50px;
+}
+
+img.logoimg {
+  position: relative;
+  top: 7px;
+  right: 24%;
+}
+  }
+
+@media only screen and (max-width: 482px) and (min-width: 479px) { 
+
+  .carousel-inner{width: 128%!important;}
+  .topnav a.icon {
+    background: white;
+    display: block;
+    position: absolute;
+    right: 65%;
+    top: 0;
+}
+
+.topnav #myLinks {
+  display: none;
+  left: 28%;}
+
+  img.logoimg {
+    position: relative;
+    top: 7px;
+    right: 32%;}
+
+}
+
+@media only screen and (max-width: 412px) and (min-width: 410px) { 
+
+.carousel-inner {
+  position: relative;
+  left: -15px;
+  bottom: 65px;
+  width: 109%;}
+
+.topnav a.icon {
+  background: white;
+  display: block;
+  position: absolute;
+  right: 58%;}
+
+  .topnav #myLinks {
+    display: none;
+    left: 31%;}
+
+}
+
+@media only screen and (max-width: 385px) and (min-width: 383px) { 
+
+
+  .carousel-inner {
+    position: relative;
+    left: -9px;
+    bottom: 65px;
+}
+
+}
+
+@media only screen and (max-width: 385px) and (max-height: 668px) { 
+
+  .commissioned-art-wrapper {
+    margin-top: -70px;
+}
+}
+
+@media only screen and (max-width: 415px) and (min-width: 413px) { 
+
+  #slideshow img {
+    width: 340px;
+    height: 320px!important;
+    margin-left: 88px!important;
+}
+
+}
 
 /* @media  screen and (max-width:768px){
 
