@@ -794,7 +794,7 @@ li.nav-item1 {
       #clyfig{font-size:12px!important;} */
     
       span111{font-size:23px!important;position:relative;right: 66px!important;
-        bottom: 545px;}
+        bottom: 485px;}
     
       .lead{font-size: 0.8em!important;}
     
@@ -885,7 +885,7 @@ li.nav-item1 {
       .w3-content{width:100%!important;width: 200%!important;
         position: relative;
         right: 30px;
-        bottom: 480px;
+        bottom: 420px;
     }
     
     
@@ -895,7 +895,7 @@ li.nav-item1 {
       z-index: 100;
       position: relative;
       left:120px;
-      top:5px;
+      top:65px;
       }
       .navbar1 li a:hover{
       transition:  all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -913,7 +913,7 @@ li.nav-item1 {
     span.carousel-control-next-icon {   bottom: 27%!important; right : 55%;
       position: relative; }
     
-    .art-vi{left:1px;bottom: 630px;}
+    .art-vi{left:1px;bottom: 570px;}
     
     .intro-wrapper{margin: 0rem 0rem!important; margin-bottom: 30px!important;}
     
@@ -925,7 +925,7 @@ li.nav-item1 {
     margin-left:15px;}
     
     span91{    position: relative;
-      bottom: 300px;  left: 1px;
+      bottom: 240px;  left: 1px;
       font-size: 20px; }
     
     .zoomin1 img {
@@ -1046,7 +1046,7 @@ li.nav-item1 {
     
     .art-gallery{position: relative;left:10px;top:500px;margin-bottom:20px!important;}
     
-    span71{font-size: 23px;bottom: 378px;
+    span71{font-size: 23px;bottom: 318px;
       left: -68px;margin-top: 500px;}
     
     .divi{display: none;}
@@ -1073,7 +1073,7 @@ li.nav-item1 {
         height: 0;
         overflow: hidden;
         /* top:100px; */
-        bottom: 414px!important;
+        bottom: 354px;
     }
     .google-maps iframe {
         position: absolute;
@@ -1119,7 +1119,7 @@ li.nav-item1 {
   .pl-5, .px-5 {
     padding-left: 3rem!important;
     position: relative;
-    bottom: 661px;
+    bottom: 601px;
     
 }
 
