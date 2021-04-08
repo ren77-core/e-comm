@@ -11,8 +11,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="stylesheets/jquery.modal.css" media="screen">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">   
 
-      <title>Art website</title>
+<title>Art website</title>
       <!--STYLE CSS only -->
     
   
@@ -22,7 +25,6 @@
      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
 
-        <link rel="stylesheet" href="assets/css/style.css" />
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
 
         
@@ -33,8 +35,35 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/jquery.modal.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-   </head>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
    <body>
+    <div class="container-fluid"><div class="topdesign" style="display:flex;width:100%;">
+      <br>
+<div class="toggle" style="width: 100%;position:relative;right:170px;top:14px;">
+      <div class="topnav">
+         <a href="#home" class="active" style="visibility:hidden;">About<br></a>
+         <div id="myLinks">
+            <br>
+          <!-- <img src="logo.JPG" width="80" height="80" style="float:right;"> -->
+           <a href="#" style="color:black;">Original</a>
+           <a href="#">About</a>
+           <a href="#">Clay figurine</a>
+         </div>
+         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+           <i class="fa fa-bars" style="color:black;visibility:visible;"></i>
+         </a>
+       </div>
+      </div>
+
+      <img src="logo.JPG" class="logoimg" width="80" height="80">
+
+      <img src="cart.png" width="31" height="31" style="position:relative;top:25px;margin-right:12px;">
+
+   </div>
+   </div>
       <!--Page wrapper-->
       <!---Logo -->
       <div class="page-wrapper">
@@ -47,77 +76,84 @@
          </div>
          <!---End of Logo  -->
          <!---Navbar-->
-         <nav class="navbar navbar-expand-lg " style="width:100%;z-index: 9;position:fixed;display: flex;justify-content:center;top:0px;background-color: white;">
-          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fa fa-bars"></i>
-          </button>
+         <nav class="navbar navbar-expand-lg ">
           <div class="collapse navbar-collapse " id="navbarSupportedContent">
-             <div class="left-links mr-auto">
-                <ul class="navbar-nav " style="position:relative;" >
-                   <li class="nav-item active">
-                      <a class="nav-link" href="about.html">ABOUT</a>
-                   </li>
-                   <li class="nav-item">
-                      <div class="btn-group" >
-                         <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <div class="left-links mr-auto">
+     <ul class="navbar-nav " style="position:relative;" >
+        <li class="nav-item active">
+           <a class="nav-link" href="about.html">ABOUT</a>
+        </li>
+        <li class="nav-item">
+           <div class="btn-group" >
+              <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 <span style="font-size: 24px;border-color: gray;">SHOP  </span>                         </button>
-                         <div class="dropdown-menu" style="text-overflow: wrap;">
-                           <a class="dropdown-item" href="acrylic.html">Acrylic</a>
-                           <a class="dropdown-item" href="watercolor.html">Water Color</a>
-                           <div class="dropdown-divider"></div>
-                           <a class="dropdown-item" href="whitecharcoal.html">White Charcoal</a>
-                         </div>
-                       </div>
-                   </li>
-                 
-                   <li class="nav-item">
-                      <a class="nav-link" href="clayfigurine.html" >CLAY FIGURINE </a>
-                   </li>
-                   <li class="nav-item1">
-                      <a class="nav-link" href="index.html" ><img src="logo.JPG" width="120" height="120"></a>
-                   </li>
-                   <li class="nav-item">
-                      <a class="nav-link"href="events.html" >EVENTS</a>
-                   </li>
-                
-                   <li class="nav-item">
-                      <a class="nav-link" href="art-interview.html" >INTERVIEWS</a>
-                   </li>
-                   <li class="nav-item">
-                      <a class="nav-link" href="#" > MODEL & CONCEPT ART</a>
-                   </li>
-                </ul>
-             </div>
-        <!--     <div class="right-links ml-auto">
-                <ul class="navbar-nav ">
-                   <li class="nav-item active">
-                      <a class="nav-link" href="https://m.facebook.com/ramananthangadurai/" target="_blank">  <i class="fa fa-facebook-f"></i></a></i>
-                   </li>
-                   <li class="nav-item">
-                      <a class="nav-link" href=" https://www.instagram.com/ramanan.art/" target="_blank"><i class="fa fa-instagram"></i></a>
-                   </li>
-                   <li class="nav-item">
-                      <a class="nav-link" href="mailto: ramanan.thangadurai@gmail.com" ><i class="fa fa-envelope"></i></a>
-                   </li>
-                   <li class="nav-item">
-                      <a class="nav-link" href=" https://www.youtube.com/channel/UCEOzwXpGVDzme41XveCtbrg" target="_blank"><i class="fa fa-youtube"></i></a>
-                   </li>
-                </ul>
-             </div> -->
-          </div>
-       </nav>
+              <div class="dropdown-menu" style="text-overflow: wrap;">
+                <a class="dropdown-item" href="acrylic.html">Acrylic</a>
+                <a class="dropdown-item" href="watercolor.html">Water Color</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="whitecharcoal.html">White Charcoal</a>
+              </div>
+            </div>
+        </li>
+
+        <li class="nav-item">
+           <a class="nav-link" href="clayfigurine.html" >CLAY FIGURINE </a>
+        </li>
+        <li class="nav-item1">
+           <a class="nav-link" href="index.html" ><img src="logo.JPG" width="120" height="120"></a>
+        </li>
+        <li class="nav-item">
+           <a class="nav-link"href="events.html" >EVENTS</a>
+        </li>
+
+        <li class="nav-item">
+           <a class="nav-link" href="art-interview.html" >INTERVIEWS</a>
+        </li>
+        <li class="nav-item">
+           <a class="nav-link" href="#" > MODEL & CONCEPT ART</a>
+        </li>
+     </ul>
+  </div>
+<!--     <div class="right-links ml-auto">
+     <ul class="navbar-nav ">
+        <li class="nav-item active">
+           <a class="nav-link" href="https://m.facebook.com/ramananthangadurai/" target="_blank">  <i class="fa fa-facebook-f"></i></a></i>
+        </li>
+        <li class="nav-item">
+           <a class="nav-link" href=" https://www.instagram.com/ramanan.art/" target="_blank"><i class="fa fa-instagram"></i></a>
+        </li>
+        <li class="nav-item">
+           <a class="nav-link" href="mailto: ramanan.thangadurai@gmail.com" ><i class="fa fa-envelope"></i></a>
+        </li>
+        <li class="nav-item">
+           <a class="nav-link" href=" https://www.youtube.com/channel/UCEOzwXpGVDzme41XveCtbrg" target="_blank"><i class="fa fa-youtube"></i></a>
+        </li>
+     </ul>
+  </div> -->
+</div>
+</nav>
+
        </div>
 
         <br>
         <br>
         <br>
         <br>
-
-        
+<div class="container112">
+  <center> <h5 class="clayintro">All the figurines are made using Polymer clay, and mounted with proper armature on wood. 
+    The figurines are not for sale yet, and all of these are displayed to showcase my work quality. If you’re intrested in ordering a figurine, then do contact me.
+    <br>
+    P.S- I don’t make people miniatures at the time being. I’m yet to explore that area of sculpting.</h5>
+</div></center> 
+        <div class="container-fluid">
+          <div class="viewpage" align="center">Pages: 
+            <!-- <span class="pagination_current">1</span> | -->
+            <a href="clayfigurine.html" title="Page 1" style="background-color:black;margin-right:4%;"><span style="color:white;padding:4px 8px;font-family: 'Dela Gothic One', cursive;">1</span></a>
+            <!-- <a href="/" title="Page 3">3</a> | -->
+            <a href="clayfigurine_2.html" title="Page 2" style="margin-right:4%;" ><span style="font-family: 'Dela Gothic One', cursive;padding:4px 8px;">2</span></a> 
+            <a href="clayfigurine_3.html" title="Page 3" style="margin-right:4%;"><span style="font-family: 'Dela Gothic One', cursive;padding:4px 8px;">3</span></a> 
+            </div>
 <div class="clayDoc">
-
-
-    
 
         <div id="img1" style="display:none;">
             <p>the road (image 1)</p>
@@ -175,69 +211,94 @@
 
         <section class="gallery1">
             <ul class="clayGallery">
-              <li><a href="#img1" rel="modal:open"><img class="cla" src="images/thumbnails/1.jpg"></a></li>
+              <li><a href="#img1" rel="modal:open"><img class="cla" src="assets/clay/brucelee-enterthedragon/bruce lee_0.PNG"></a></li>
+              <h4 class="clayname">Enter The Dragon | 6" </h4>
             </ul>
           </section>
           <!-- Second large image -->
           <section class="gallery1">
             <ul class="clayGallery">
-              <li><a href="#img2" rel="modal:open"><img class="cla" src="images/thumbnails/2.jpg"></a></li>
+              <li><a href="#img2" rel="modal:open"><img class="cla" src="assets/clay/shazam/Shazam/shazam_0.JPG"></a></li>
+              <!-- <h4 class="clayname">Genesis | 6" </h4> -->
+              <h4 class="clayname">Shazam | 6" </h4>
+
             </ul>
           </section>
 
           <section class="gallery1">
             <ul class="clayGallery">
-              <li><a href="#img3" rel="modal:open"><img class="cla" src="images/thumbnails/3.jpg"></a></li>
+              <li><a href="#img3" rel="modal:open"><img class="cla" src="assets/clay/yoda/yoda_0.JPG"></a></li>
+              <h4 class="clayname">Yoda | 4" </h4>
+
             </ul>
           </section>
           
           <section class="gallery1">
             <ul class="clayGallery">
-              <li><a href="#img4" rel="modal:open"><img class="cla" src="images/thumbnails/4.jpg"></a></li>
+              <li><a href="#img4" rel="modal:open"><img class="cla" src="assets/clay/popeye/popeye/popeye_0.PNG"></a></li>
+              <!-- <h4 class="clayname">Friday The 13ᵗʰ | 8" </h4> -->
+              <h4 class="clayname">Popeye | 4.5" </h4>
             </ul>
           </section>
-        </div>
 
         <section class="gallery1">
             <ul class="clayGallery">
-              <li><a href="#img5" rel="modal:open"><img class="cla" src="images/thumbnails/5.jpg"></a></li>
+              <li><a href="#img5" rel="modal:open"><img class="cla" src="assets/clay/deadpool/deadpool/deadpool_0.JPG"></a></li>
+              <h4 class="clayname">Deadpool | 6" </h4>
+             </ul>
+          </section>
+
+          
+
+          <section class="gallery1">
+            <ul class="clayGallery">
+              <li><a href="#img6" rel="modal:open"><img class="cla" src="assets/clay/Goku/Goku_0.jpeg"></a></li>
+              <h4 class="clayname">Goku | 6" </h4>
             </ul>
           </section>
 
           <section class="gallery1">
             <ul class="clayGallery">
-              <li><a href="#img6" rel="modal:open"><img class="cla" src="images/thumbnails/6.jpg"></a></li>
+              <li><a href="#img7" rel="modal:open"><img class="cla" src="assets/clay/IT/IT_0.jpg"></a></li>
+              <h4 class="clayname">IT | 6" </h4>
             </ul>
           </section>
 
           <section class="gallery1">
             <ul class="clayGallery">
-              <li><a href="#img7" rel="modal:open"><img class="cla" src="images/thumbnails/7.jpg"></a></li>
+              <li><a href="#img8" rel="modal:open"><img class="cla" src="assets/clay/raptor/raptor_0.JPEG"></a></li>
+              <h4 class="clayname">Raptor | 7" </h4>
+
+            </ul>
+
+          </section>
+
+          <section class="gallery1">
+            <ul class="clayGallery">
+              <li><a href="#img9" rel="modal:open"><img class="cla" src="assets/clay/the mask/the mask_0.JPG"></a></li>
+              <h4 class="clayname">The Mask | 6" </h4>
+
             </ul>
           </section>
 
           <section class="gallery1">
             <ul class="clayGallery">
-              <li><a href="#img8" rel="modal:open"><img class="cla" src="images/thumbnails/8.jpg"></a></li>
-            </ul>
-          </section>
+              <li><a href="#img10" rel="modal:open"><img class="cla" src="assets/clay/Black panther/Black panther_0.JPG"></a></li>
+              <h4 class="clayname">Black Panther | 6" </h4>
 
-          <section class="gallery1">
-            <ul class="clayGallery">
-              <li><a href="#img9" rel="modal:open"><img class="cla" src="images/thumbnails/9.jpg"></a></li>
-            </ul>
-          </section>
-
-          <section class="gallery1">
-            <ul class="clayGallery">
-              <li><a href="#img10" rel="modal:open"><img class="cla" src="images/thumbnails/10.jpg"></a></li>
             </ul>
           </section>
 
    
-
+          <div class="viewpage" align="center">Pages: 
+            <!-- <span class="pagination_current">1</span> | -->
+            <a href="clayfigurine.html" title="Page 1" style="background-color:black;margin-right:4%;"><span style="color:white;padding:4px 8px;font-family: 'Dela Gothic One', cursive;">1</span></a>
+            <!-- <a href="/" title="Page 3">3</a> | -->
+            <a href="clayfigurine_2.html" title="Page 2" style="margin-right:4%;" ><span style="font-family: 'Dela Gothic One', cursive;padding:4px 8px;">2</span></a> 
+            <a href="clayfigurine_3.html" title="Page 3" style="margin-right:4%;"><span style="font-family: 'Dela Gothic One', cursive;padding:4px 8px;">3</span></a> 
+            </div>
 </div>
-        
+</div>
 
          <!---End of navbar-->
          <!--- Intro wrapper-->
@@ -272,5 +333,15 @@
 
       <script src="js/jquery-1.12.0.min.js"></script>
       <script src="js/jquery.modal.min.js"></script>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
    </body>
 </html>
