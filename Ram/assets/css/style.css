@@ -1418,7 +1418,32 @@ img.logoimg {
   bottom: 301px;
 }
 
+.button11 {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  position: relative;
+  right: 77px;
+  top: 295px;
+  z-index: 1000;
+}
 
+.navbar1 li a {
+  margin: 0 20px 0px 0px;
+  font-size: 28px;
+  z-index: 100;
+  position: relative;
+  left: 120px;
+  top: 45px;
+}
 
 }
 
