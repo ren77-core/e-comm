@@ -1334,6 +1334,7 @@ img.logoimg {
   position: relative;
   top: 7px;
   right: 24%;
+  
 }
 
 
@@ -1411,6 +1412,14 @@ img.logoimg {
   .commissioned-art-wrapper {
     margin-top: -70px;
 }
+
+.interview-section {
+  position: relative;
+  bottom: 301px;
+}
+
+
+
 }
 
 @media only screen and (max-width: 415px) and (min-width: 413px) { 
