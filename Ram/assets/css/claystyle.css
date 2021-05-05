@@ -23,23 +23,25 @@ div.scrollmenu {
   background-color: rgb(255, 255, 255);
   overflow: auto;
   white-space: nowrap;
+vertical-align: top;
 }
 
 div.scrollmenu a {
-  display: inline-block;
   color: white;
   /* text-align: center; */
   padding: 1px;
   text-decoration: none;
-  margin-right: -167px;
   width: 88%;
+  vertical-align: top;
+
 
 }
 
 div.scrollmenu a:hover {
   background-color: rgb(255, 255, 255);}
 
-  img.clayfigurines {width:44%;}
+  img.clayfigurines {width:44%;vertical-align: top;
+  }
   img.clayfigurineslast {width:44%;margin-right:-200px;}
 
 

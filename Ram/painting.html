@@ -133,13 +133,24 @@
        
 
         
-        <div class="pro-item" style="width:90%;position: relative;left:200px;">
+        <div class="pro-item" style="position: relative;">
             <div class="row">
                 <div class="col-md-5">
     
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="img/el.jpg" alt="first slide">
+          <div class="simple-gallery">
+            <div class="mini">  
+               <img src="assets/images/acrylic.JPEG">
+               <img src="assets/images/acrylic.JPEG">
+               <img src="assets/images/acrylic.JPEG">
+               <img src="assets/images/acrylic.JPEG">
+              </div>
+            <img class="maxi" src="assets/images/acrylic.JPEG">
+               
+            
+         
+         </div>
         </div>
      
     
@@ -150,26 +161,18 @@
         <hr>
         <!-- Main Content -->
                 <div class="col-md-7">
-                    <p class="newarrival text-center">LIMITED EDITION</p>
+                    <p class="newarrival text-center"></p>
                     <h2 class="paint-title"> One Man Army - Elephant </h2>
-                    <p> Original Art with blend of colors and top quality painting.</p>
+                    <p> </p>
                     <img src="img/star.png" class="star">
                     <table>
-                        <li>
-                Acrylic
-                        </li>
-                        <li>
-                        A4</li>
-                        <li>
-    Medium					</li>
-                        <li>
-    Protrait					</li>
+                        
+                        
                     </table>
-                    <p><b>Color: Black</b></p>
+                    <p><b></b></p>
                     <p class="price" style="color: red;">INR 7500/-</p>
-                    <p><b>Available: </b> In Stock</p>
                     <p><b>Frame </b> Mounted</p>
-                    <p><b>Artist </b> Ramanan Thangadurai</p>
+                    <p></p>
     
                     <label>Quantity</label>
                     <input type="text" name="" value="1">
@@ -178,37 +181,19 @@
     </div>
     </div>
 <br>    <!-- Product Description -->
-    <h3 style="color: black"> Product Description</h3>
-        <p>Opening my log with an <b>acrylic painting🎉</b>. It was an intresting mix for the clouds, and the technique was never used for a pretty long time. This painting closes the last canvas i stapled during the early lockdown period.
-        <p>
-            <b>Painting ID</b>
+ <p>
+            <b>Specifics</b>
             <br>
-                340	
+            30x40" oil painting - canvas panel w/wood frame backing (Approx 2" thick)
+<br><br>
+            I paint the sides to match the painting (the painting is extended to the sides) and it is ready to hang as is or can be custom framed.
+            <br>    <br>   
+            This painting comes with a certificate of authenticity which is also documented in a hard copy catalog of original paintings. This catalog is in the possession of myself, the artist.
+            <br>  <br>      
+            I personally guarantee that this painting will last for many years to come. I use nothing but the highest grade archival materials in creating and framing this artwork to ensure that this painting is ready to withstand the ages. If you have any questions about this painting or any concerns please feel free to contact me.	
         </p>
         <p>
-            <b>Frame</b>
-            <br>
-            Frame comes with the purchase of the painting.
-        </p>
-        <p>
-            <b>Specification:</b>
-            <br>
-        Branded framing is included	<br>
-            <br>
-            Frame Size: 12 X 12
-        </p>
-        <p>
-            <b>Note:</b>
-            <br>
-            Very costly painting. Handle with care.</p>
-        <p>
-            <b>Gifts Included:</b>
-            <br>
-            1 X Water Color Paint Box
-            <br>
-            1 X User Manual
-            <br>
-            1 X Paint Brush
+            
         </p>
     <hr>
     
@@ -251,7 +236,36 @@
       </div>
       <!--- End of Page wrapper-->
       
-   
+      <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+          <script id="rendered-js" >
+    $(".mini img").click(function () {
+    
+      $(".maxi").attr("src", $(this).attr("src").replace("100x100", "400x400"));
+    
+    });
+    //# sourceURL=pen.js
+        </script>
+    <script>
+        $(".mini img").click(function(){  
+    
+    $(".maxi").attr("src",$(this).attr("src").replace("100x100","400x400"));
+    
+    });
+    </script>
+    <script>
+        window.console = window.console || function(t) {};
+      </script>
+      
+        
+        
+        <script>
+        if (document.location.search.match(/type=embed/gi)) {
+          window.parent.postMessage("resize", "*");
+        }
+      </script>
+      
      
 
         </body>
