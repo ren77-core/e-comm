@@ -142,7 +142,15 @@ transition:  all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 background-color: #EAEAEA;
 }
 
-/** SHOP TITLE **/
+figure {
+    display: inline-block;
+    margin: 0 1em 1em 0;
+}
+
+figcaption {
+    font-family: 'Comic Sans MS';
+    text-align: center;
+}/** SHOP TITLE **/
 
 /** No BG Top and bottom lines **/
 
@@ -587,7 +595,11 @@ width: 65%!important;
 .original-art-wrapper .grid-container .grid-item{
   /* height: 350px; */
   width: 100%!important;
-  margin: 6px 0px;
+  margin: -5px 0px;
+}
+p.Name {
+  margin-top: -10px;
+  font-weight: bold;
 }
 .original-art-wrapper .grid-container img{
  /* height: 100%; */
@@ -1350,6 +1362,11 @@ height: 200px;
 width: 200px;
 margin: 20px 0px;
 }
+.price
+{color:green;
+position:relative;
+bottom:15px;}
+
 .interview-heading{
 font-size: 16px;
 }
@@ -1374,7 +1391,7 @@ font-size: 14px;
 .original-art-wrapper .grid-container{
 justify-content: center;
   grid-template-columns: auto auto ;
-  grid-gap: 1px 25px;
+  grid-gap: 1px 16px;
   padding-bottom: 25px;
 }
 .original-art-wrapper .grid-container .grid-item{

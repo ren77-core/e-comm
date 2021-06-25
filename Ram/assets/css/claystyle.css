@@ -2,8 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
+
+
 .scrollable {overflow-x:scroll;}
 
+.model-video {
+  position: relative;
+  bottom: 75px;
+  left: 170px;
+}
+
+img.clay1212 {
+  width: 100%;
+}
 a{
 color:#222222 !important;
 }
@@ -18,6 +29,24 @@ color:white!important;
 a.btn-outline-dark:hover{
 color: #fff !important;
 }
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  /* text-align: center; */
+  width: 44%;
+}
+img.claycool {
+   width: 100%;
+  /*height: 100px; */
+  background-color: grey;
+}
+.caption {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+}
+.clayitemtitle {font-weight: bold;}
 
 div.scrollmenu {
   background-color: rgb(255, 255, 255);
@@ -36,6 +65,7 @@ div.scrollmenu a {
 
 
 }
+
 
 div.scrollmenu a:hover {
   background-color: rgb(255, 255, 255);}
@@ -1330,7 +1360,7 @@ height: 50vh;
 margin: 50rem;;
 }
 iframe{
-width: 380px;
+width: 375px;
 height: 300px;
 }
 .clay-figure-content p{
