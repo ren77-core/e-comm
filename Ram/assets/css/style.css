@@ -584,8 +584,7 @@ img.thehinduimg {display:none;width:100%;}
 /***********Latest Art Event Page****************************/
 .original-art-wrapper{
   padding-bottom: 200px;
-width: 65%!important;
-}
+  width: 100%!important;}
 .original-art-wrapper .grid-container{
   display: grid;
   grid-template-columns: auto auto auto;
@@ -603,11 +602,12 @@ p.Name {
 }
 .original-art-wrapper .grid-container img{
  /* height: 100%; */
- width: 460px;
- margin: 30px 0px;
+ width: 100%!important;
+  margin: 30px 0px;
 }
 .original-art-wrapper .grid-container {
   font-size: 20px;
+  width: 100%;
 }
 /***********Art Interview Page****************************/
 
